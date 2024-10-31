@@ -1,0 +1,429 @@
+@import url(fonts.css);
+@import url(common.css);
+
+main{
+    background:#252B42;
+}
+/* .section_1 */
+.section_1{
+    padding: 100px 0px;
+}
+.section_1-cards_1{
+    padding: 45px 0px;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.section_1-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    max-width: 445px;
+    width: 100%;
+}
+.section_txt{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color:#ffffff;
+    max-width: 470px;
+    text-align: center;
+}
+.section_1-cards_2{
+    padding-top: 24px;
+    padding-bottom: 43px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.section_1-card-card{
+    border: 1px solid #e9e9e9;
+    padding: 35px 40px;
+    width: 328px;
+    background: #ffffff;
+    gap:15px; 
+    /* tekshirish:gap ishlamayapti ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+}
+.section_1-card-card-card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+.section_1-card-card-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #252B42;
+}
+.section_1-card-card-txt{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color:#737373;
+    text-align: left;
+}
+
+/* .section_2 */
+
+.section_2{
+    padding: 112px 0px;
+}
+.section_2-cards_1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    /* tekshirish: centrga otmiyaoti */
+    margin: 0 auto;
+}
+
+.section_2-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    color:#ffffff;
+}
+.section_txt{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color:#ffffff;
+    max-width: 470px;
+    text-align: center;
+}
+.section_2-cards_2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 80px;
+    padding-bottom: 45px;
+}
+.section_2-cards_2-cards_1{
+    background: #ffffff;
+    width: 508px;
+    min-height: 248px;
+    height: 100%;
+    display: flex;
+    gap: 0;
+}
+.section_2-cards_2-card_2{
+    padding: 40px 30px;
+    width: 332px;
+    height: 248px;
+}
+.section_2-cards_2-card_2-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0em;
+    color: #252B42;
+}
+.section_2-cards_2-card_2-txt{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    color:#737373;
+}
+.section_2-cards_2-card_2-list{
+    display: flex;
+    gap: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.section_2-cards_2-card_2-remember{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color:#737373;
+}
+/* section_3 */
+
+.section_3{
+    padding: 80px 0px;
+}
+.section_3-cards_1{
+    padding: 45px 0px;
+    max-width: 1050px;
+    height: 197px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: center;
+}
+.section_3-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    color:#ffffff;
+    text-align: center;
+}
+.section_3-cards_2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.section_3-cards_card{
+    background: #ffffff;
+    border-radius: 9px;
+    padding: 25px;
+    width: 330px;
+    height: 151px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.section_3-cards_card-txt_1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color:#252B42;
+}
+.section_3-cards_card-txt_2{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    color:#737373;
+}
+
+/* section_4 */
+
+.section_4{
+    padding: 112px 0px;
+}
+.section_4-cards_1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.section_4-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    color:#ffffff;
+}
+.section_4-cards_2{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.section_4-cards_card{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border: 1px solid #23A6F0;
+    border-radius: 10px;
+    padding: 50px 30px;
+    width: 338px;
+    height: 641px;
+    background:#ffffff;
+}
+.section_4-cards_card-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#252B42;
+}
+.section_4-cards_card-txt{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* letter-spacing: 0.01em; */
+    color:#737373;
+}
+.section_4-cards_card-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+.section_4-cards_card-card-0{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    color:#23A6F0;
+}
+.section_4-cards_card-card-card{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+.section_4-cards_card-card-1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #23a6f0;
+}
+.section_4-cards_card-card-card-txt{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    color:#23A6F0;
+}
+.section_4-cards_card-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section_4-cards_card-item_1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img_1{
+    border-radius: 50%;
+    padding: 10px 8px 11px 8px;
+    width: 32px;
+    height: 32px;
+    background:#2DC071;
+}
+.img_2{
+    border-radius: 50%;
+    padding: 10px 8px 11px 8px;
+    width: 32px;
+    height: 32px;
+    background:#BDBDBD;
+}
+.section_4-cards_card-list-txt{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    color:#252B42;
+}
+.section_4-cards_card-link{
+    border-radius: 5px;
+    padding: 15px 40px;
+    width: 279px;
+    height: 52px;
+    background: #23A6F0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 157%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color:#ffffff;
+}
+/* section_5 */
+
+.section_5{
+    padding: 50px 0px;
+}
+.section_5-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section_5-cards_1{
+    /* tekshirish */
+    padding: 50px 0px;  
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section_5-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.01em;
+    color:#ffffff;
+    width: 476px;
+}
+.section_5-txt{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+    color:#ffffff;
+    width: 455px;
+}
+/* tekshirish:rasim bilan formni chegarasida ingickga chizig chiqvotti*/
+.section_5-card{
+    display: flex;
+    padding: 50px 82px;
+    margin-top: 50px;
+}
+.section_5_card_card-2{
+    padding: 40px 50px;
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background: #ffffff;
+}
+.form-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#252B42;
+}
+.form-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.input{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 19px 25px;
+    width: 510px;
+    height: 50px;
+    /* tekshirish: height form */
+    background: #f9f9f9;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0.01em;
+    color:#737373;
+}
+.form-link{
+    border-radius: 5px;
+    padding: 15px 40px;
+    width: 510px;
+    background: #23A6F0;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 157%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color:#ffffff;
+}
